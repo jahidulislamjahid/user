@@ -15,6 +15,10 @@ return {
       end,
       desc = "Pick to close",
     },
+
+     ["H"] = {":bp<cr>", desc = "Moves To The Previous Buffer"},
+     ["L"] = {":bn<cr>", desc = "Moves To The Next Buffer"},
+
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
